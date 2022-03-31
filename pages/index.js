@@ -10,7 +10,7 @@ export default function IndexPage() {
         imageAlt='neovim'
         siteName='officialRajdeepsingh.dev'
         typeOfPost="article"
-        twitterEnable="false"
+        twitterEnable="true"
         twitterCard="summary"
         twitterSiteOwner="@official_R_Deep"
         twitterBlogCreator="@official_R_Deep"

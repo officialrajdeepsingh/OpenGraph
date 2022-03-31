@@ -50,7 +50,7 @@ export default function OpenGraph({
       <meta property="og:title" content={titleName} />
       <meta property="og:description" content={descriptionName} />
       <meta property="og:image" content={imageUrl} />
-      <meta property=" og:image:alt" content={imageAlt? imageAlt : titleName} />
+      <meta property="og:image:alt" content={imageAlt? imageAlt : titleName} />
       <meta property="og:site_name" content={siteName} />
 
       <meta
