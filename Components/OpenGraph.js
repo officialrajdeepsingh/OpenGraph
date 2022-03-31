@@ -8,6 +8,7 @@ export default function OpenGraph({
   imageAlt,
   typeOfPost,
   postUrl,
+  twitterCard,
   twitterEnable,
   twitterWritterBy,
   twitterSiteOwner,
@@ -36,7 +37,6 @@ export default function OpenGraph({
     throw new Error("value is siteName require ");
   }
  
-
   return (
     <Head>
       <title> {titleName} </title>
@@ -85,7 +85,8 @@ export default function OpenGraph({
         ""
       )}
 
-      {twitterEnable === true ? (
+      {
+      twitterEnable === true ? (
         <>
           <meta name="twitter:card" content={twitterCard ? twitterCard : "summary_large_image"} />
           <meta name="twitter:title" content={titleName} />

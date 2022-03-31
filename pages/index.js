@@ -10,7 +10,7 @@ export default function IndexPage() {
         imageAlt='neovim'
         siteName='officialRajdeepsingh.dev'
         typeOfPost="article"
-        twitterEnable="true"
+        twitterEnable={true}
         twitterCard="summary"
         twitterSiteOwner="@official_R_Deep"
         twitterBlogCreator="@official_R_Deep"
@@ -18,7 +18,7 @@ export default function IndexPage() {
         imageHeight
         iconPath="https://officialrajdeepsingh.dev/content/images/2022/03/install--neovim.png"
         canonical
-        viewport
+        viewport='false'
         ampUrl="officialrajdeepsingh.dev/rss"
         rssUrl="officialrajdeepsingh.dev/rss"
       />
